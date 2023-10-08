@@ -1,0 +1,169 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+:root {
+    --black-2: rgba(0,0,0,0.471);
+    --black: rgba(0,0,0,1);
+    --cyan--aqua2: rgba(59,250,251,0.502);
+    --cyan--aqua: rgba(59,250,251,1);
+    --true-v2: rgba(130,106,237,0.502);
+    --true-v2-22: rgba(130,106,237,1);
+    --silver-chalice: rgba(174,173,173,1);
+    --heliotrope: rgba(200,121,255,0.502);
+    --reef2: rgba(202,255,138,0.502);
+    --reef-22: rgba(202,255,138,1);
+    --alto: rgba(217,217,217,1);
+    --gray-nurse: rgba(232,232,232,1);
+    --pot-pourri: rgba(242,228,220,1);
+    --white: rgba(255,255,255,1);
+
+    --font-size-m: 16px;
+    --font-size-1: 20px;
+    --font-size-x1: 24px;
+    --font-size-xx1:34px;
+    --font-size-xxx1:36px;
+    --font-sixe-xxxx1: 48px;
+    --font-size-xxxxx1: 64px;
+
+    --font-family-univa_nova-bold: "Univa Nova-Bold";
+    --font-family-univa_nova-light: "Univa Nova-Light";
+    --font-family-univa_nova-medium: "Univa Nova-Medium";
+    --font-family-univa_nova-regular: "Univa Nova-Regular";
+    --font-family-univa_nova-thin: "Univa Nova-Thin";
+}
+
+/* Classes */
+
+.univanova-regular-normal-black-24px {
+    color:var(--black);
+    font-family: var(--font-family-univa_nova-regular);
+    font-size: var(--font-size-x1);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.univanova-bold-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-univa_nova-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.univanova-medium-black-24px{
+    color: var(--black);
+    font-family: var(--font-family-univa_nova-medium);
+    font-size: var(--font-size-x1);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.univanova-bold-black-64px{
+    color: var(--black);
+    font-family: var(--font-family-univa_nova-bold);
+    font-size: var(--font-size-xxxxx1);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.univanova-bold-black-24px{
+    color: var(--black);
+    font-size: var(--font-size-x1);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.univanova-light-black-24px{
+    color: var(--black);
+    font-family: var(--font-family-univa_nova-light);
+    font-size: var(--font-size-x1);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.univanova-regular-normal-black-16px{
+    color: var(--black);
+    font-family: var(--font-family-univa_nova-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.univanova-medium-black-16px{
+    color: var(--black);
+    font-family: var(--font-family-univa_nova-medium);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.univanova-bold-black-34px{
+    color: var(--black);
+    font-family: var(--font-family-univa_nova-bold);
+    font-size: var(--font-size-xx1);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.univanova-bold-black-48px{
+    color: var(--black);
+    font-family: var(--font-family-univa_nova-bold);
+    font-size: var(--font-size-xxx1);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.univanova-think-black-20px{
+    color: var(--black);
+    font-family: var(--font-family-univa_nova-thin);
+    font-size: var(--font-size-1);
+    font-weight: 100;
+    font-style: normal;
+}
+
+.univanova-bold-black-36px{
+    color: var(--black);
+    font-family: var(--font-family-univa_nova-bold);
+    font-size: var(--font-size-xxx1);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.univanova-medium-white-24px{
+    color: var(--white);
+    font-family: var(--font-family-univa_nova-medium);
+    font-size: var(--font-size-x1);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.univanova-medium-black-16px-2{
+    color: var(--black-2);
+    font-family: var(--font-family-univa_nova-medium);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.univanova-regular-normal-white-16px{
+    color: var(--white);
+    font-family: var(--font-family-univa_nova-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.univanova-bold-white-16px{
+    color: var(--white);
+    font-family: var(--font-family-univa_nova-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.univanova-regular-normal-pot-pourri-16px{
+    color: var(--pot-pourri);
+    font-family: var(--font-family-univa_nova-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
